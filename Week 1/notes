@@ -1,0 +1,7 @@
+ctrl-shift-h is shortcut for preview package
+ctrl/ is shortcut for comment
+use <span style=...> for color in the middle of string
+<cite></cite> and <blockquote></blockquote> to cite work to other sites
+<sup> is substring above
+<sub> is substring below
+to make image clickable, replace string in <a></a> with image path
