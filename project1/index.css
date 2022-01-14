@@ -1,0 +1,169 @@
+
+html {
+  background-color: green;
+  background-image: linear-gradient(green, yellow);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: scroll;
+  font-family: cursive;
+}
+
+h1{
+  text-align: center;
+  font-family: cursive;
+}
+
+h2 {
+  font-family: cursive;
+}
+
+#div1 {
+
+  border-top: 1px solid gray;
+  border-right: .5px solid gray;
+}
+
+.homeDiv {
+  width: 90%;
+  background-color: red;
+  background-image: linear-gradient(red, yellow, black);
+
+}
+
+ #fig1 {
+  width: 100%;
+
+}
+
+#img1 {
+  width: 100px;
+  height: 100px;
+  margin-left: 0%;
+
+}
+
+#img2 {
+  width: 100px;
+  height: 100px;
+  margin-left: 1250px;
+}
+
+#img3{
+ width: 250px;
+ height: 250px;
+ border: 3px solid black;
+}
+
+#img4 {
+  width: 350px;
+  height: 350px;
+  border: 3px solid black;
+}
+
+
+#img3Fig{
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  padding-left: 100px;
+}
+
+#img3pFig{
+  width: 600px;
+  height: 200px;
+  display: inline-block;
+  margin-left: 30px;
+  padding-left: 50px;
+}
+
+#img3p{
+  width: auto;
+  text-align: center;
+}
+
+#img4p {
+  width: auto;
+  text-align: center;
+}
+
+#img4Fig{
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  padding-left: 10px;
+  padding-bottom: 50px;
+  margin: auto;
+}
+
+#img4pFig {
+  width: 600px;
+  height: 200px;
+  display: inline-block;
+  padding-left: 100px;
+  padding-bottom: 50px;
+}
+
+.img4Div {
+  padding-bottom: 50px;
+}
+
+#np1  {
+  font-weight: bold;
+  font-style: italic;
+
+}
+
+#np2 {
+  margin-left: 40px;
+}
+
+#new1 {
+  line-height: 1px;
+}
+
+table {
+  width: 400px;
+  border: 2px solid black;
+}
+
+#row1, #row6 {
+  background-color: red;
+}
+
+#td1{
+  width: 75%;
+}
+
+#td2 {
+  background-color: black;
+  color: white;
+}
+
+figcaption {
+  padding-left: 10px;
+  display: inline-block;
+}
+
+#aFig {
+
+}
+
+#insta {
+  font-size: small;
+}
+
+#navP {
+  display: inline-block;
+  font-size: 20px;
+  color:black;
+}
+
+a {
+  color: black;
+}
+
+footer {
+  text-align: center;
+  font-weight: bold;
+}
