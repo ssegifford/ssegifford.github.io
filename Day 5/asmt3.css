@@ -1,0 +1,69 @@
+
+.first {
+ width: 100%;
+ height: 600px;
+ padding: -10%;
+}
+
+.north {
+  width: 100%;
+  height: 100%;
+}
+
+.textBox {
+  text-align: center;
+  width: 50%;
+  height: 15%;
+  background-color: rgba(128,122,122, 0.5);
+  position: absolute;
+  top: 65%;
+  left: 48%;
+}
+
+.textBox p{
+  line-height: 10px;
+}
+
+.clock {
+  width: 50%;
+  height: 600px;
+  position: relative;
+  left: 33%;
+  background-color: lightblue;
+}
+
+.hrHand {
+  width: 20%;
+  height: 35%;
+  position: absolute;
+  left: 40%;
+  top: 15%;
+  animation: minutes 10s infinite;
+  animation-timing-function: linear;
+}
+
+.short {
+  width: 20%;
+  height: 20%;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  animation: hours 10s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes minutes {
+  0% {transform-origin: bottom center; transform: rotate(0deg);}
+  25% {transform: rotate(90deg);}
+  50% { transform: rotate(180deg);}
+  75% { transform: rotate(270deg);}
+  100% {transform-origin: bottom center; transform: rotate(360deg);}
+}
+
+@keyframes hours {
+0% {transform-origin: left center ;transform: rotate(0deg);}
+50%{ transform: rotate(15deg);}
+100% { transform-origin: left center; transform: rotate(30deg);}
+
+
+}
